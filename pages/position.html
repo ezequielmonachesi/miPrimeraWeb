@@ -9,62 +9,29 @@
     <meta name="keywords" content="etiquetas, atributos, css, html" />
     <meta name="author" content="monachesi cesar ezequiel" />
     <title>Mi Primera Web</title>
-
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
-    />
+    <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
     <header>
-      <nav class="navbar navbar-dark navbar-expand-lg bg-dark">
-        <div class="container-fluid">
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarNav"
-            aria-controls="navbarNav"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="../index.html"
-                  >Inicio</a
-                >
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="elementos.html">Elementos</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="position.html">Position</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="flexbox.html">Flexbox</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="contactos.html">Contactos</a>
-              </li>
-            </ul>
-          </div>
-        </div>
+      <nav>
+        <a class="nav-link" aria-current="page" href="../index.html">Inicio</a>
+        <a class="nav-link" href="elementos.html">Elementos</a>
+        <a class="nav-link" href="position.html">Position</a>
+        <a class="nav-link" href="flexbox.html">Flexbox</a>
+        <a class="nav-link" href="contactos.html">Contactos</a>
       </nav>
     </header>
 
     <main>
       <h1>Práctica de HTML y CSS</h1>
-      <article class="p-3 m-3">
-      <h2>Tipos de posicionamiento</h2>
-        <p class="fw-semibold">
+      <article>
+        <h2>Tipos de posicionamiento</h2>
+        <p>
           La propiedad position de CSS específica cómo un elemento es
           posicionado en el documento. Las propiedades top, right, bottom y left
           determinan la ubicación final de los elementos posicionados.
         </p>
-        <p class="fw-semibold">
+        <p>
           Un elemento posicionado es un elemento cuyo valor computado de
           position es relative, absolute, fixed o sticky. (En otras palabras,
           cualquiera excepto static).
@@ -96,7 +63,5 @@
     <footer>
       <p>&copy; Todos los derechos reservados</p>
     </footer>
-
-    <script src="	https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
   </body>
 </html>
