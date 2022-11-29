@@ -20,10 +20,58 @@ nav a {
   text-align: center;
 }
 
-.contenedor{
-    margin: 30px;
+.contenedor {
+  margin: 30px;
 }
-
+footer {
+  background: black;
+  text-align: center;
+  color: white;
+  padding: 20px 0px;
+}
 #centrarImagen {
   text-align: center;
+}
+
+p {
+  padding: 10px 0px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 12px 0px;
+}
+
+/* position */
+.contenedorPrincipal {
+  border: 2px solid red;
+}
+
+.caja {
+  width: 200px;
+  height: 200px;
+  border: 1px solid black;
+}
+
+#cajaAzul {
+  background: rgb(46, 144, 255);
+  position: relative;
+}
+
+#cajaAmarilla {
+  background: rgb(228, 232, 97);
+}
+
+#cajaRoja {
+  background: rgb(237, 67, 98);
+}
+
+/* Elementos */
+
+.margenGeneral {
+  margin: 30px;
 }

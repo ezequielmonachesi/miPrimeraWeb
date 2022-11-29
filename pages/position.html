@@ -9,7 +9,7 @@
     <meta name="keywords" content="etiquetas, atributos, css, html" />
     <meta name="author" content="monachesi cesar ezequiel" />
     <title>Mi Primera Web</title>
-    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="../css/style.css" />
   </head>
   <body>
     <header>
@@ -23,8 +23,10 @@
     </header>
 
     <main>
-      <h1>Práctica de HTML y CSS</h1>
-      <article>
+      <section class="banner">
+        <h1>Práctica de HTML y CSS</h1>
+      </section>
+      <section class="contenedor">
         <h2>Tipos de posicionamiento</h2>
         <p>
           La propiedad position de CSS específica cómo un elemento es
@@ -57,7 +59,12 @@
           se mueve), desde el cual es tratado como "fijo" hasta que alcance el
           borde opuesto de su bloque contenedor.
         </p>
-      </article>
+        <article class="contenedorPrincipal">
+          <div class="caja" id="cajaAzul">caja 1</div>
+          <div class="caja" id="cajaAmarilla">caja 2</div>
+          <div class="caja" id="cajaRoja">caja 3</div>
+        </article>
+      </section>
     </main>
 
     <footer>
